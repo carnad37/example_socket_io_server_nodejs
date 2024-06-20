@@ -1,0 +1,20 @@
+{
+  "name": "example_socket_io_server_nodejs",
+  "version": "0.0.1",
+  "description": "ec3-1 socket.io toyproject",
+  "scripts": {
+    "sch": "ts-node index.ts --scenario schedule",
+    "con": "ts-node index.ts --scenario connect"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.6",
+    "@types/node-schedule": "^2.1.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-schedule": "^2.1.1",
+    "redis": "^4.6.14",
+    "socket.io": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
