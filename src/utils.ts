@@ -24,6 +24,7 @@ const getRoomViewer = (namespace: Namespace, socketIdSet: Set<string>) => {
     const tUserkey = namespace.sockets.get(socketId).data.userKey
     countSet.add(tUserkey)
   }
+  console.log('countSet', countSet)
   return countSet.size
 }
 
